@@ -1,33 +1,33 @@
-# a=[9,2,3,45,5,67,1]
-# b=a
-# c=a.copy()
-# d=c.copy()
-# b.append(11)
-# c.append(111)
-# d.append(1111)
-# print(a)
-# print(b)
-# print(c)
-# print(d)
+a=[9,2,3,45,5,67,1]
+b=a
+c=a.copy()
+d=c.copy()
+b.append(11)
+c.append(111)
+d.append(1111)
+print(a)
+print(b)
+print(c)
+print(d)
  
-# a=[[1,2],[3,4]]
-# b=a.copy()
-# b[0].append(10)
-# print(a)
-# print(b)
+a=[[1,2],[3,4]]
+b=a.copy()
+b[0].append(10)
+print(a)
+print(b)
 
-# import copy
-# a=[[1,2],[3,4]]
-# b=copy.deepcopy(a)
-# b[0].append(10)
-# print(a)
-# print(b)
+import copy
+a=[[1,2],[3,4]]
+b=copy.deepcopy(a)
+b[0].append(10)
+print(a)
+print(b)
 
-# i = "I am Busy right now"
-# words = i.split()
-# r = words[::-1]
-# o = ' '.join(r)
-# print(o)
+i = "I am Busy right now"
+words = i.split()
+r = words[::-1]
+o = ' '.join(r)
+print(o)
 
 # i="I am Busy right now"
 # print(' '.join(i.split()[::-1]))
